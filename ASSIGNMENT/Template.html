@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucinda sans-serif", sans-serif;
+}
+
+.header {
+  color: #FFD4CC;
+background: #FFFFFF;
+font-family: "Aguafina Script", cursive;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(53, 8, 38);
+    background-color: rgb(245, 199, 229);
+    text-shadow: rgb(59, 13, 53) 2px 2px 2px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+.aside {
+  background-color: #FFCCDD;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: #F08080;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: coral;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.example {
+  padding: 20px;
+  color: white;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 375px) {
+  .example {background: red;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 375px) {
+  .example {background: green;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .example {background: blue;}
+} 
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1920px) {
+  .example {background: pink;}
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <img src="logo.svg" alt="the logo design">
+  <h1 style="text-align: center;font-family: "Aquafina Script",cursive;>Blessed Hands Wedding Planner</h1>
+</div>
+
+<div class="row" >
+  <div class="col-12" style="background-image: url('image1.jpg'); 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;">
+
+  <div class="col-3 menu">
+    
+  </div>
+
+  <div class="col-6">
+    
+  </div>
+
+  <div class="col-3 right">
+    <div class="aside">
+      <h2>Who are we?</h2>
+      <p>Blessed hands Wedding Deco is here to help you make your dreams come true and give a unique touch to any of your events.!</p>
+      <h2>Best planning advice</h2>
+      <p>Take your time and don’t try to plan the entire wedding the week you get engaged," she says. "Enjoy your engagement and then enjoy the planning process.We are here for you</p>
+      <h2>How?</h2>
+      <p>We are here for you!!</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="row">
+  
+  
+
+  <div class="col-4">
+    <h1 >Wedding Arch Backdrop</h1>
+    <img src="image2.jpg" alt="the wedding arch backdrop" width="460" height="345">
+<p>Wedding arches have long been used to enhance and even transform ceremony spaces!A wedding arch can create a focal point for your vow exchange. Plus, the statement-making piece makes a stunning backdrop for photos too.</p>
+  </div>
+
+  <div class="col-4">
+    <h1>The Wedding Altar</h1>
+    <img src="image3.jpg" alt="the wedding altar" width="460" height="345">
+<p>Transform your indoor or outdoor celebration with one of these pretty spectacular backdrops.</p>
+  </div>
+
+  <div class="col-4">
+    <h1>The Asymetrical backdrop</h1>
+    <img src="image4.jpg" alt="the asymetrical backdrop" width="460" height="345">
+<p>Transform your indoor or outdoor celebration with one of these pretty spectacular backdrops. Our hexagonal backdrop can be modified with the flowers and theme of your choice giving an extra touch to your wedding.</p>
+  </div>
+
+  <div class="col-4">
+    <h1>The Bride and groom Corner</h1>
+    <img src="image5.jpg" alt="" width="460" height="345">
+<p>We also personalize the  bride and groom corner where the guests can meet up the couples and take pictures..</p>
+  </div>
+
+  <div class="col-4">
+    <h1>The Welcome Corner</h1>
+    <img src="image6.jpg" width="460" height="345">
+<p>The welcome corner and board are the first thing your guests will set their eyes on when coming to your wedding. We provide personalized wedding boards adapted to the theme of the wedding..</p>
+  </div>
+
+  <div class="col-4">
+    <h1>Welcome boards</h1>
+    <img src="image7.jpg" width="460" height="345">
+<p>We have a variety of boards you can choose from.</p>
+  </div>
+
+ 
+</div>
+
+<div class="row" >
+  <div class="col-12">
+    <hr>   
+    <p class="example" style="text-align: center;"> </p>
+      <hr>    
+  </div>
+</div>
+<div class="row">
+  <div class="col-3">
+    
+  </div>
+  <div class="col-6">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Leave us a message and we'll contact you back</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<div class="col-3">
+    
+  </div>
+</div>
+
+<div class="footer">
+  <p> This website has been created by Dilasha Jhurree.</p>
+</div>
+  
+
+
+</body>
+</html>
